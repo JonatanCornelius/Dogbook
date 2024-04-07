@@ -1,0 +1,54 @@
+.start-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Ljusare bakgrundsfärg */
+}
+
+.create-dog-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dogs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dog-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff; /* Vit bakgrundsfärg för varje hundpost */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dog-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}
